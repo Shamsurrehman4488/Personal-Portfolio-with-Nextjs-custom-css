@@ -1,0 +1,90 @@
+ 
+ .education{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .edu-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .e-h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+ }
+ .edu-box{
+     
+    width: 80%;
+    background-color: rgb(235, 172, 172);
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+ }
+ .school{
+    margin-top: 18px;
+    font-size: 25px;
+    
+ }
+ .inter{
+    margin-top: 18px;
+  width: 50%;
+ }
+ @media screen  and (min-width:100px) and (max-width:750px){
+   .education{
+      width: 53%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 5px;
+      background: #000;
+   }
+   .edu-main{
+      display: flex;
+      flex-direction: column;
+      
+   }
+   .edu-box{
+     
+      width: 80%;
+      
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+   }
+   .school{
+      margin-top: 18px;
+      font-size: 16px;
+      width: 250px;
+      color: rgba(21, 5, 248, 0.849);
+   }
+   .inter{
+      margin-top: 18px;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    color: black;
+    
+   }
+   .ah1{
+      color: #000;
+      font-size: 17px;
+     margin-left: 2px;
+      width: 100%;
+     
+   }
+   .std{
+      display: none;
+   }
+}

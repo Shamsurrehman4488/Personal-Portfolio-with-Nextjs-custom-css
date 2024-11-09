@@ -1,0 +1,111 @@
+.header1{
+    margin-top: 150px;
+    width: 80%;
+    height: 300px;
+    border: 2px solid red;
+    background: #fff;
+    margin-left: 130px;
+    
+ }
+ .header2{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 30px;
+   
+ }
+ .hero1{
+    
+    width: 400px;
+ }
+ .hero2{ 
+  margin-left: 150px;
+  margin-bottom: 200px;
+ }
+  .h-1{
+    color: black;
+    margin-top: 30px;
+  }
+ 
+  
+ .profile1{
+    border: 2px solid rgb(241, 8, 8);
+   
+ }
+ 
+ .para1{
+  width: 500px;
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+   margin-top: 20px;
+    
+ }
+ .icon{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  margin: 8px;
+ }
+ .facebook{
+  font-size: 40px;
+  color: blue;
+ }
+ .youtube{
+  font-size: 50px;
+  color: red;
+ }
+ .linkden{
+  font-size: 40px;
+  color: rgba(0, 0, 255, 0.952);
+ }
+ @media screen  and (min-width:100px) and (max-width:750px){
+  .header1{
+    margin-top: 100px;
+    width: 50%;
+    height: 500px;
+    border: 2px solid red;
+    background: #fff;
+    margin-left: 5px;
+    
+ }
+
+ .header2{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.hero1{
+  
+  width: 100%;
+  height: 200px;
+   
+}
+.hero2{ 
+  margin-left: 2px;
+margin-bottom: 200px;
+ 
+}
+.h-1{
+  color: black;
+  margin-left: 30px;
+  margin-top: 2px;
+}
+
+
+.profile1{
+  border: 2px solid rgb(241, 8, 8);
+ 
+}
+
+.para1{
+width: 200px;
+height: 500px;
+ font-size: 12px;
+ color: rgb(0, 0, 0);
+ margin-top: 20px;
+  margin-left: 5px;
+}
+}
+
+
+ 

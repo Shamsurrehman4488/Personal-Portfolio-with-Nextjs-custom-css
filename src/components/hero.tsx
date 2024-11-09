@@ -10,7 +10,7 @@ export default function Hero (){
                 {/**left div  */}
                 <div className="hero-left-div">
  
-                <h1 className="title1">I am Shams Ur Rehman <br />
+                <h1 className="title1">I&apos;m Shams Ur Rehman <br />
                      </h1>
 
                      {/**Typewriter Effect */}

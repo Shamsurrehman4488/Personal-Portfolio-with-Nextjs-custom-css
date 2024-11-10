@@ -48,7 +48,7 @@
   .header-right-div{
    
    width: 800px;
-   margin-left: 90px;
+   margin-left: 100px;
    margin-right: 400px;
    font-size:  18px;
    font-weight: 600;
@@ -75,7 +75,7 @@
 .logo{
    width: 15px;
    margin-top: 8px;
-   margin-left: 8px;
+   margin-left: 180px;
    color: rgb(0, 0, 0);
    font-size: 10px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -102,11 +102,12 @@
    }
     
    .hero-left-div{
- 
+    
       width: 400px;
       height: 400px;
       justify-content: center;
       align-items: center;
+      margin-top: 150px;
    }
    .title1{
        

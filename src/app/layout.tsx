@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
-import Hero from "@/components/hero";
-import Projects from "@/components/projects";
-import Skill from "@/components/skill";
-import Education from "@/components/education";
+
+ 
+ 
+ 
  
  
 
@@ -24,12 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Header />
+       
+     
       
-      <Hero />
-      <Projects />
-      <Skill />
-      <Education />
       
      
         {children}

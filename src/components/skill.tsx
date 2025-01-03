@@ -1,32 +1,52 @@
 import "../style/skill.css";
+import React from "react";
 
-export default function Skill (){
-    return(
-      <main className="main">
-        <div className="container">
-          {/** top div */}
-          <div className="top-div">
-            <h1 className="title-skill"> Programming Languages</h1>
-            <p className="para-skill">
-            i have a solid foundation in web development , <b className="ok">specializing</b> in <b>HTML,CSS</b>,and <b>Javascript</b> .My experience extends to using framework like <b>React</b> and <b>next.js</b> to create dynamic and 
-            user-friendly applications. I&apos;m also proficient in tailwind css for efficient styling and design. with a passion for learning, I stay updated on the latest technologies to enhance my skill set and contribute effectively to projects.
-            </p>
+const skills = [
+  {
+    title: "HTML",
+    description:
+      "HTML is the backbone of web page structure, providing semantic elements for layout, forms, and media. It ensures accessibility and SEO.",
+  },
+  {
+    title: "CSS",
+    description:
+      "CSS enhances web design by adding styling, including animations, layouts, and responsive design. It ensures beautiful and consistent web pages.",
+  },
+  {
+    title: "JavaScript",
+    description:
+      "JavaScript enables interactivity on websites, allowing dynamic content, animations, and seamless user experiences.",
+  },
+  {
+    title: "TypeScript",
+    description:
+      "TypeScript enhances JavaScript by providing static typing, enabling better code maintenance and debugging.",
+  },
+];
+
+const SkillsSection = () => {
+  return (
+    <div className="skills-container">
+      <h1 className="skills-heading">Skills</h1>
+      <div className="skills-timeline">
+        {skills.map((skill, index) => (
+          <div key={index}  className="skills-card" >
+            <div >
+            <div className="skills-icon">{index + 1}</div>
+              </div> 
+
+            <div>
+            <h2 className="skills-title">{skill.title}</h2>
+            <p className="skills-description">{skill.description}</p>
+            </div>
+            
           </div>
+          
+        ))}
+        <div className="skills-vertical-line"></div>
+      </div>
+    </div>
+  );
+};
 
-          {/** bottom div */}
-          <div className="boxes">
-
-           <div className="small-box"><h2 className="yes-yes">HTML</h2> <h6 className="h6">90%</h6> </div>
-           <div className="small-box"><h2 className="yes-yes">CSS</h2> <h6 className="h6">90%</h6></div>
-           <div className="small-box"><h2 className="yes-yes">JAVASCRIPT</h2> <h6 className="h6">80%</h6></div>
-           <div className="small-box"><h2 className="yes-yes">TYPESCRIPT</h2> <h6 className="h6">80%</h6></div>
-           <div className="small-box"><h2 className="yes-yes">NEXT.JS</h2> <h6 className="h6">90%</h6></div>
-           <div className="small-box"><h2 className="yes-yes">REACT.JS</h2><h6 className="h6">90%</h6></div>
-
-          </div>
-
-        </div>
-      </main> 
-    )
-}
-
+export default SkillsSection;

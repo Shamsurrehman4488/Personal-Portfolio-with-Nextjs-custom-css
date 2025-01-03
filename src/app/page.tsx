@@ -1,20 +1,21 @@
- 
-import Image from "next/image";
- import About from "@/components/about";
- import Contact from "./contact/page";
- 
-import Footer from "@/components/footer";
- 
+import ContactForm from "@/components/contact";
+import Hero from "@/components/hero";
+import Navbar from "./navbar/page";
+import Projects from "@/components/projects";
+import SkillsSection from "@/components/skill";
+import Footer from "./footer/page";
  
 
+ 
 export default function Home() {
   return (
-   <div>
-      <About />
-    <Contact />
-    
-     <Footer />
-      
-   </div>
+     <div>
+       <Navbar />
+       <Hero />
+      <Projects />
+      <SkillsSection />
+      <ContactForm />
+      <Footer />
+     </div>
   );
 }
